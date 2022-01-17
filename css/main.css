@@ -222,14 +222,8 @@ html {
 
     /* Nav */
 
-    .display-not {
+    .topnav {
         display: none;
-    }
-
-    .menu-nav {
-        display: flex;
-        width: 50px;
-        height: 50px;
     }
 
     /* Main */
@@ -277,14 +271,34 @@ html {
         font-size: 50px;
     }
 
+    /* footer */
+
+    .line-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-line {
+        background-color: #000;
+        padding: 1px 300px;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 715px) {
 
+    /* nav */
+
+    .topnav {
+        display: none;
+    }
+    
     /* Main */
     
     .name-text {
         font-size: 45px;
+        padding-top: 100px;
     }
     
     .slogan-text {
@@ -310,20 +324,37 @@ html {
     }
 
     /* Plans */
-    
-    .plans-div {
-        display: flex;
-        flex-direction: column;
-    }
 
     .plans-div img {
-        width: 300px;
-        height: 200px;
+        width: 240px;
+        height: 170px;
     }
 
-    .plans-div h1{
-        font-size: 50px;
+    .view-more {
+        margin: 20px 50px;
+        padding: 10px 30px;
+        text-decoration: none;
+        background-color: #5249f5;
+        color: #3b35bb;
+        border-radius: 6px;
+    
+        transition: 0.5s;
     }
+
+
+    /* footer */
+
+    .line-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-line {
+        background-color: #000;
+        padding: 1px 100px;
+        justify-content: center;
+    }
+
 
 }
 
